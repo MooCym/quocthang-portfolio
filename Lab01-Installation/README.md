@@ -16,7 +16,7 @@
 - Host OS - Windows 11
 
 ## 4. Sơ đồ mạng
-<img width="575" height="593" alt="topolory" src="https://github.com/user-attachments/assets/f0b0b6cf-63bd-4be9-8e64-38b602daeaa0" />
+<img width="974" height="295" alt="Topology Lab 01" src="https://github.com/user-attachments/assets/6766a4c5-ac6d-4584-b1e1-bfb26a6bbbec" />
 
 ## 5. Cấu hình mạng
 WAN - Kết nối Internet - DHCP
