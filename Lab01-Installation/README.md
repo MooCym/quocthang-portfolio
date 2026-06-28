@@ -1,22 +1,27 @@
 #Lab01-Installation
 ## 1. Giới thiệu
 Đây là bài Lab đầu tiên trong dự án *pfSense Home Lab*. Mục tiêu của bài Lab là cài đặt thành công pfSense trên VMware Workstation, cấu hình các interface WAN/LAN và kiểm tra khả năng kết nối Internet của máy khách.
+
 ## 2. Mục tiêu
 - Cài đặt pfSense CE trên VMware Workstation.
 - Cấu hình Interface WAN và LAN.
 - Thiết lập địa chỉ IP cho mạng LAN.
 - Truy cập giao diện WebConfigurator.
 - Kiểm tra kết nối Internet từ máy Client.
+
 ## 3. Môi trường thực hiện
 - VMware Stations - 17Pro
 - pfSense - 2.8.0
 - Windows 11 - Clients
 - Host OS - Windows 11
+
 ## 4. Sơ đồ mạng
 <img width="575" height="593" alt="topolory" src="https://github.com/user-attachments/assets/f0b0b6cf-63bd-4be9-8e64-38b602daeaa0" />
+
 ## 5. Cấu hình mạng
 WAN - Kết nối Internet - DHCP
 LAN - Mạng nội bộ - 192.168.100.1/24
+
 ## 6. Các bước thực hiện
 ### Bước 1:
 Tạo máy ảo pfSense trên VMware Workstation.
@@ -30,6 +35,7 @@ Cấu hình địa chỉ IP cho LAN.
 Truy cập WebConfigurator thông qua trình duyệt.
 ### Bước 6
 Hoàn tất Wizard cấu hình ban đầu.
+
 ## 7. Kết quả
 Sau khi hoàn thành:
 - pfSense khởi động thành công.
@@ -46,6 +52,7 @@ Sau khi hoàn thành:
 ![Dashboard](dashboard.png)
 ### Kiểm tra kết nối Internet
 ![Ping](ping-test.png)
+
 ## 9. Kiến thức và kỹ năng đạt được
 - Cài đặt pfSense CE.
 - Cấu hình WAN và LAN.
